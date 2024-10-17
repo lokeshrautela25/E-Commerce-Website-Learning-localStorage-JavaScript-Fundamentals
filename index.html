@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/Styles/navbar.css" />
+    <link rel="stylesheet" href="/Styles/index.css">
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <div id="main">
+      <header>
+        Home Page 
+      </header>
+
+      <div class="searchDiv">
+        <input type="text" id="query" name="query" placeholder="Search by name, categories">
+        <button id="searchBtn">Search Products</button>
+      </div>
+      
+      <div id="products">
+        <!-- Products Data Will Show Inside This Div   -->
+      </div>
+
+    </div>
+    <!-- Main Closed Here -->
+     <script src="/Components/data.js"></script>
+    <script type="module" src="/Scripts/index.js"></script>
+    <script type="module" src="/Scripts/navbar.js"></script>
+  </body>
+</html>

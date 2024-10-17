@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="/Styles/navbar.css" />
+    <link rel="stylesheet" href="/Styles/page.css">
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+    <div id="main">
+      <header>
+        Kid's Product Page
+      </header>
+
+      <div class="parentDiv">
+        <div class="child1">
+          <button class="btnfilter" id="allProducts">All Products</button>
+        <button class="btnfilter" id="sortLH">Low TO High</button>
+      <button class="btnfilter" id="sortHL">High To Low</button>
+      <select class="btnfilter" name="" id="filter">
+        <option value="">Filter Products</option>
+        <option value="T-Shirts">T-Shirts</option>
+        <option value="Jeans">Jeans</option>
+        <option value="Cap">Cap</option>
+        <option value="Shoes">Shoes</option>
+      </select>
+        </div>
+        <!-- child1 closed here  -->
+        <div class="child2">
+          <div id="kidProducts">
+            <!-- Kid's Products Data Will Show Inside This Div   -->
+          </div>
+        </div>
+        <!-- child2 closed here -->
+      </div>
+      <!-- parentDiv closed here  -->
+       <script src="/Components/data.js"></script>
+    <script type="module" src="/Scripts/kid.js"></script>
+    <script type="module" src="/Scripts/navbar.js"></script>
+  </body>
+</html>

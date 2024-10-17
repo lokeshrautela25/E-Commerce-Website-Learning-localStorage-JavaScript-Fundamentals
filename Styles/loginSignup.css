@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+}
+header{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 0px 0px 20px 0px;
+}
+form{
+  width: 30%;
+  height: auto;
+  margin: auto;
+  padding: 0px 10px 0px 10px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: medium;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#submit{
+    background-color: black;
+    color: white;
+    border: none;
+}
